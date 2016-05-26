@@ -14,14 +14,9 @@ namespace Lab2
 
         }
 
-        protected void CancelButton_Click(object sender, EventArgs e)
+        protected void SendButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Default.aspx");
-        }
-
-        protected void SubmitButton_Click(object sender, EventArgs e)
-        {
-            //to be replaced with email processing code 
+            //code that sends email goes here 
             Response.Redirect("Default.aspx");
         }
     }

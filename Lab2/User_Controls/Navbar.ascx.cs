@@ -15,10 +15,11 @@ namespace Lab2
         protected void Page_Load(object sender, EventArgs e)
         {
             SetActivePage();
-
         }
-        /*
-         * This method adds a css class of acive to the current list item on the nav bar that you are on 
+
+        /**
+         * This method adds a css class of "active" to list items related
+         * to navigation links of each page 
          * 
          * @method SetActivePage
          * @return {void}
@@ -31,7 +32,7 @@ namespace Lab2
                     home.Attributes.Add("class", "active");
                     break;
                 case "Contact":
-                    home.Attributes.Add("class", "active");
+                    contact.Attributes.Add("class", "active");
                     break;
             }
         }

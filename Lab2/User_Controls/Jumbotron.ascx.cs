@@ -7,11 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace Lab2.User_Controls
 {
-    public partial class WebUserControl1 : System.Web.UI.UserControl
+    public partial class Jumbotron : System.Web.UI.UserControl
     {
+
+        [PersistenceMode(PersistenceMode.InnerProperty)]
+        public PlaceHolder BodyContent { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            JumbotronH1.InnerText = "Welcome!";
+            content.Controls.Add(BodyContent);
         }
     }
 }
