@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
         <bs3:Navbar runat="server"></bs3:Navbar>
     <div>
-        <asp:ContentPlaceHolder ID="Main Content" runat="server">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
