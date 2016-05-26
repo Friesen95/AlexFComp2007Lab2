@@ -14,11 +14,11 @@
                     </div>
                     <div class="panel-body">
                         <address>
-                            <strong>Tom Tsiliopoulos</strong><br>
-                            1 Toronto Drive<br>
-                            Barrie, ON L9L 1L0<br>
+                            <strong>Alex Friesen</strong><br>
+                            6 Toronto Drive<br>
+                            Barrie, ON L4N 2B3<br>
                             <abbr title="Phone">Tel:</abbr>
-                            (705) 555-5555
+                            (705) 123-5657
                         </address>
                     </div>
                 </div>

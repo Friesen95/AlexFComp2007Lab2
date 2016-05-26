@@ -13,12 +13,12 @@ namespace Lab2.User_Controls {
     public partial class Jumbotron {
         
         /// <summary>
-        /// content control.
+        /// JumbotronH1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl JumbotronH1;
     }
 }
