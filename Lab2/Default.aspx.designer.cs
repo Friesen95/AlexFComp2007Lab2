@@ -8,10 +8,11 @@
 //------------------------------------------------------------------------------
 
 namespace Lab2 {
-    
-    
-    public partial class _default {
-        
+
+
+    public partial class Default
+    {
+
         /// <summary>
         /// Jumbotron control.
         /// </summary>
@@ -19,6 +20,6 @@ namespace Lab2 {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::Lab2.User_Controls.WebUserControl1 Jumbotron;
+        protected global::Lab2.User_Controls.Jumbotron Jumbotron;
     }
 }
